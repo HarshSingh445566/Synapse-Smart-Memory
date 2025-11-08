@@ -1,0 +1,11 @@
+{
+  "manifest_version": 3,
+  "name": "Save to Synapse",
+  "version": "1.0",
+  "description": "Capture selected text and send to Synapse.",
+  "permissions": ["contextMenus", "activeTab", "scripting"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "host_permissions": ["http://localhost:5000/*"]
+}
